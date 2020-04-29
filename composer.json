@@ -1,0 +1,29 @@
+{
+  "name": "omikron/magento2-factfinder-infinite-scroll-experimental",
+  "description": "FACT-Finder Webcomponents SDK with restorable infinite scroll",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Omikron Data Quality GmbH",
+      "homepage": "https://web-components.fact-finder.de"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-curl": "*",
+    "omikron/magento2-factfinder": "^1.5.1"
+  },
+  "require-dev": {
+    "magento/magento-coding-standard": "^4.0",
+    "phpunit/phpunit": ">=6.1 <8.0"
+  },
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Omikron\\FactfinderInfiniteScrollingExperimental\\": "src"
+    }
+  }
+}
